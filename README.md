@@ -1,11 +1,4 @@
-## V2Ray 基于 Nginx 的 vmess+ws+tls 一键安装脚本
 
-> 感谢 JetBrains 提供的非商业开源软件开发授权
-
-> Thanks for non-commercial open source development authorization by JetBrains
-### Telegram 群组
-* telegram 交流群:https://t.me/wulabing_v2ray 
-* telegram 更新公告频道：https://t.me/wulabing_channel
 
 ### 准备工作
 * 准备一个域名，并将A记录添加好。
@@ -15,7 +8,7 @@
 ### 安装/更新方式（h2 和 ws 版本已合并）
 Vmess+websocket+TLS+Nginx+Website
 ```
-wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/wulabing/V2Ray_ws-tls_bash_onekey/master/install.sh" && chmod +x install.sh && bash install.sh
+wget -N --no-check-certificate -q -O install.sh "https://raw.githubusercontent.com/xkdzt/v2_ws_tls_bash/master/install.sh" && chmod +x install.sh && bash install.sh
 ```
 
 ### 注意事项
